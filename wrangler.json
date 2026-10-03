@@ -1,6 +1,12 @@
 {
 	"name": "favicon-fetch",
 	"compatibility_date": "2026-03-07",
+	"routes": [
+		{
+			"pattern": "favicon-fetch.mulkatz.dev",
+			"custom_domain": true
+		}
+	],
 	"assets": {
 		"directory": "demo/dist"
 	}
