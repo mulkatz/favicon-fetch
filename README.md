@@ -1,4 +1,4 @@
-<p align="center"><img src="./icon.png" width="120" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/mulkatz/favicon-fetch/main/icon.png" width="120" alt="favicon-fetch icon" /></p>
 
 <h1 align="center">favicon-fetch</h1>
 
@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/favicon-fetch"><img src="https://img.shields.io/npm/v/favicon-fetch" alt="npm version" /></a>
-  <img src="https://img.shields.io/npm/l/favicon-fetch" alt="license" />
+  <a href="https://github.com/mulkatz/favicon-fetch/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license" /></a>
 </p>
 
 <p align="center">
