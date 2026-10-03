@@ -9,7 +9,6 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/favicon-fetch"><img src="https://img.shields.io/npm/v/favicon-fetch" alt="npm version" /></a>
-  <img src="https://img.shields.io/bundlephobia/minzip/favicon-fetch" alt="bundle size" />
   <img src="https://img.shields.io/npm/l/favicon-fetch" alt="license" />
 </p>
 
