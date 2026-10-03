@@ -81,7 +81,7 @@ function FaviconPreview({ domain }: { domain: string }) {
 
 function InstallBlock() {
 	const [copied, setCopied] = useState(false);
-	const cmd = "npm install favicon-fetch";
+	const cmd = "npm install @mulkatz/favicon-fetch";
 
 	return (
 		<button
@@ -215,7 +215,7 @@ export default function App() {
 						Usage
 					</p>
 					<pre className="p-6 bg-zinc-900/50 border border-zinc-800/50 rounded-lg text-sm font-mono overflow-x-auto">
-						<code className="text-zinc-300">{`import { getFavicon, getAllFavicons } from "favicon-fetch";
+						<code className="text-zinc-300">{`import { getFavicon, getAllFavicons } from "@mulkatz/favicon-fetch";
 
 // Get the single best icon
 const icon = await getFavicon("https://github.com");
@@ -236,7 +236,7 @@ const icon = await getFavicon("https://example.com", {
 				{/* Footer */}
 				<footer className="py-16 text-center">
 					<code className="inline-block px-6 py-3 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-300 text-sm">
-						npm install favicon-fetch
+						npm install @mulkatz/favicon-fetch
 					</code>
 					<div className="mt-8 flex justify-center gap-6 text-sm text-zinc-500">
 						<a
@@ -246,7 +246,7 @@ const icon = await getFavicon("https://example.com", {
 							GitHub
 						</a>
 						<a
-							href="https://npmjs.com/package/favicon-fetch"
+							href="https://npmjs.com/package/@mulkatz/favicon-fetch"
 							className="hover:text-zinc-300 transition-colors"
 						>
 							npm

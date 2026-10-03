@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/favicon-fetch"><img src="https://img.shields.io/npm/v/favicon-fetch" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/@mulkatz/favicon-fetch"><img src="https://img.shields.io/npm/v/%40mulkatz%2Ffavicon-fetch" alt="npm version" /></a>
   <a href="https://github.com/mulkatz/favicon-fetch/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license" /></a>
 </p>
 
@@ -32,13 +32,13 @@
 ## Install
 
 ```bash
-npm install favicon-fetch
+npm install @mulkatz/favicon-fetch
 ```
 
 ## Quick Start
 
 ```ts
-import { getFavicon, getAllFavicons } from "favicon-fetch";
+import { getFavicon, getAllFavicons } from "@mulkatz/favicon-fetch";
 
 // Get the single best icon
 const icon = await getFavicon("https://github.com");

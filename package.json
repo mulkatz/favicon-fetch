@@ -1,6 +1,6 @@
 {
-	"name": "favicon-fetch",
-	"version": "1.0.1",
+	"name": "@mulkatz/favicon-fetch",
+	"version": "1.0.0",
 	"description": "Universal favicon fetcher with smart fallback chain. One call, best icon, works everywhere — Node.js, Deno, Bun, Cloudflare Workers.",
 	"type": "module",
 	"main": "./dist/index.cjs",
