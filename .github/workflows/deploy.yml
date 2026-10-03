@@ -1,0 +1,35 @@
+name: Deploy preview to Cloudflare
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: demo/package-lock.json
+
+      - name: Install demo dependencies
+        run: npm ci --prefix demo
+
+      - name: Build demo
+        run: npm run build --prefix demo
+
+      - name: Deploy to Cloudflare
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: bffb88e6c2abd3bad00356399152cb76
+          wranglerVersion: 4.147.0
+          command: deploy
